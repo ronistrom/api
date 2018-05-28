@@ -1,4 +1,4 @@
-## The terse introduction to Houm 3.0 API
+### Tools
 
 The examples are illustrated using the following command-line tools:
 
