@@ -151,6 +151,12 @@ socket.on('peripheralInput', ({ siteKey, data }) => {
   // Do something with the peripheral input data
 })
 
+// When sensor data is available, you'll receive a 'sensorData' message.
+
+socket.on('sensorData', ({ siteKey, data }) => {
+  // Do something with the sensor data
+})
+
 // The following messages should be emitted only after receiving a 'siteKeyFound' message.
 
 socket.emit('apply/device', {
